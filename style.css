@@ -206,8 +206,8 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .home .home-content a:hover{
-    color: crimson;
-    background: none;
+    color: rgb(255, 255, 255);
+    background: white;
 }
 
 /* about section styling */
@@ -266,7 +266,7 @@ section .title::after{
 .services .title::after,
 .teams .title::after{
     background: #111;
-    content: "lo que puedo proporcionar ";
+    content: "Skills";
 }
 .services .serv-content .card{
     width: calc(33% - 20px);
@@ -440,7 +440,7 @@ section .title::after{
 
 /* contact section styling */
 .contact .title::after{
-    content: "Ponerse en contacto";
+    content: "Conctac";
 }
 .contact .contact-content .column{
     width: calc(50% - 30px);

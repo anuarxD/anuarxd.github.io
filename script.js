@@ -1,3 +1,10 @@
+window.onload =() => {
+    let loading = document.getElementById('lottie-player-wrapper')
+    setTimeout(() => {
+        loading.style.display = 'none';
+    }, 3500);
+}
+
 $(document).ready(function(){
     $(window).scroll(function(){
         // sticky navbar on scroll script
